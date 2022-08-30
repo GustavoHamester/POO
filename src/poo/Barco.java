@@ -14,8 +14,14 @@ public class Barco {
     String tipo;
     String cor;
     String material;
-    String qtdPessoas;
+    int qtdPessoas;
     
+    void imprimeDadosdoBarco(){
+        System.out.println("Tipo: "+tipo);
+        System.out.println("Cor: "+cor);
+        System.out.println("Material: "+material);
+        System.out.println("Quantidade de pessoas: "+qtdPessoas);
+    }
     
     public String getTipo(){
         return tipo;
@@ -38,11 +44,11 @@ public class Barco {
     public void setMaterial (String material){
         this.material=material;
     }
-    public String getqtdPessoas(){
+    public int getqtdPessoas(){
         return qtdPessoas;
     }
     
-    public void setNome (String qtdPessoas){
+    public void setqtdPessoas (int qtdPessoas){
         this.qtdPessoas=qtdPessoas;
     }
 }

@@ -18,6 +18,7 @@ public class POO {
         meuCarro.setPlaca("ASDA-1232");
         meuCarro.setTipo("Gol");
         
+        meuCarro.imprimeDadosdoCarro();
 
         
         Pessoa Pessoa = new Pessoa();
@@ -27,7 +28,16 @@ public class POO {
         Pessoa.setbioTipo("Bombado");
         Pessoa.setcorCabelo("Castanho");
         
-
+        Pessoa.imprimaDadosdePessoa();
+        
+        Barco barco = new Barco();
+        
+        barco.setCor("Azul");
+        barco.setMaterial("Madeira");
+        barco.setqtdPessoas(2);
+        barco.setTipo("Canoa");
+        
+        barco.imprimeDadosdoBarco();
     }
     
 }
