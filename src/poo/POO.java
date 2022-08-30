@@ -18,12 +18,16 @@ public class POO {
         meuCarro.setPlaca("ASDA-1232");
         meuCarro.setTipo("Gol");
         
-        System.out.println("---------CARRO---------");
-        System.out.println("Cor: "+meuCarro.getCor());
-        System.out.println("Nº Portas: "+meuCarro.getnumPortas());
-        System.out.println("Placa: "+meuCarro.getPlaca());
-        System.out.println("Modelo: "+meuCarro.getTipo());
+
         
+        Pessoa Pessoa = new Pessoa();
+        
+        Pessoa.setIdade(17);
+        Pessoa.setNome("Guilherme");
+        Pessoa.setbioTipo("Bombado");
+        Pessoa.setcorCabelo("Castanho");
+        
+
     }
     
 }

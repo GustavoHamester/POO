@@ -10,40 +10,48 @@ package poo;
  * @author Suporte
  */
 public class Pessoa {
+
     String nome;
     String corCabelo;
     String bioTipo;
     int idade;
-    
-    
-    
-    
- public String getNome(){
+
+    void imprimaDadosdePessoa() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Cor do cabelo: " + corCabelo);
+        System.out.println("Biotipo: " + bioTipo);
+    }
+
+    public String getNome() {
         return nome;
     }
-    
-    public void setNome (String nome){
-        this.nome=nome;
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
-     public String getcorCabelo(){
+
+    public String getcorCabelo() {
         return corCabelo;
     }
-    
-    public void setcorCabelo (String corCabelo){
-        this.corCabelo=corCabelo;
+
+    public void setcorCabelo(String corCabelo) {
+        this.corCabelo = corCabelo;
     }
-     public String getbioTipo(){
+
+    public String getbioTipo() {
         return bioTipo;
     }
-    
-    public void setbioTipo (String bioTipo){
-        this.bioTipo=bioTipo;
+
+    public void setbioTipo(String bioTipo) {
+        this.bioTipo = bioTipo;
     }
-     public int getIdade(){
+
+    public int getIdade() {
         return idade;
     }
-    
-    public void setIdade (int idade){
-        this.idade=idade;
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }
